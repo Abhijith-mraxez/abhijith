@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="calc.css" rel="stylesheet" type="text/css">
+    <script src="calc.js">
+        
+    </script>
+    <link rel="icon" type="image/x-icon" href="assets/images/mr.png">
+</head>
+<body>
+    <div id="mainbody">
+        <div id="calc">
+            <div id="output">
+                <input type="text" id="screen">
+            </div>
+            <div id="buttons">
+                <button onclick="clearScreen()" id="clearbutton">Clear</button>
+                <div id="row">
+                    <button onclick="clicks(7)" id="btn">7</button>
+                    <button onclick="clicks(8)" id="btn">8</button>
+                    <button onclick="clicks(9)" id="btn">9</button>
+                    <button onclick="clicks('/')" id="btn">/</button>
+                </div>
+                <div id="row">
+                    <button onclick="clicks(4)" id="btn">4</button>
+                    <button onclick="clicks(5)" id="btn">5</button>
+                    <button onclick="clicks(6)" id="btn">6</button>
+                    <button onclick="clicks('*')" id="btn">X</button>
+                </div>
+                <div id="row">
+                    <button onclick="clicks(1)" id="btn">1</button>
+                    <button onclick="clicks(2)" id="btn">2</button>
+                    <button onclick="clicks(3)" id="btn">3</button>
+                    <button onclick="clicks('-')" id="btn">-</button>
+                 </div>
+                 <div id="row">
+                    <button onclick="clicks('.')" id="btn">.</button>
+                    <button onclick="clicks(0)" id="btn">0</button>
+                    <button onclick="equalClick()" id="btn">=</button>
+                    <button onclick="clicks('+')" id="btn">+</button>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
+<style>
+    #calc{
+    width: 346px;
+    height: 434px;
+    margin-top: 11px;
+    margin-left: 307px;
+    background-color: #7f9573;
+}
+
+#screen{
+    width: 279px;
+    height: 43px;
+    margin-left: 29px;
+    margin-top: 27px;
+    pointer-events: none;
+
+}
+
+#btn{
+    width: 48px;
+    height: 58px;
+    margin-top: 17px;
+    margin-left: 28px;
+
+}
+
+#clearbutton{
+    width: 48px;
+    height: 27px;
+    margin-top: 17px;
+    margin-left: 28px;
+
+}
+</style>
