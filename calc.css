@@ -1,0 +1,32 @@
+#calc{
+    width: 346px;
+    height: 434px;
+    margin-top: 11px;
+    margin-left: 307px;
+    background-color: #7f9573;
+}
+
+#screen{
+    width: 279px;
+    height: 43px;
+    margin-left: 29px;
+    margin-top: 27px;
+    pointer-events: none;
+
+}
+
+#btn{
+    width: 48px;
+    height: 58px;
+    margin-top: 17px;
+    margin-left: 28px;
+
+}
+
+#clearbutton{
+    width: 48px;
+    height: 27px;
+    margin-top: 17px;
+    margin-left: 28px;
+
+}
